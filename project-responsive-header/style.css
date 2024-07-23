@@ -1,0 +1,14 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+}
+
+body{
+    background-image: url('./images/BG\ RUSHABH2Artboard\ 1@3x.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
