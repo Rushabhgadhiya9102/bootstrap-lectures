@@ -13,6 +13,13 @@ body {
   background-attachment: fixed;
 }
 
+.navbar{
+  background-image: url("./images/BG\ RUSHABH2Artboard\ 1@3x.png");
+   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 h1{
   writing-mode: vertical-lr;
 }
