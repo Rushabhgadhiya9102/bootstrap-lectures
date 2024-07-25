@@ -9,15 +9,16 @@
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous" />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <!---------------------- A C C O R D I A N  ----------------------->
 
-    <h1 class="text-capitalize text-center my-5 display-2 fw-semibold">accordion</h1>
+    <h1 class="text-capitalize text-center my-5 display-2 fw-semibold" data-aos="fade-in">accordion</h1>
 
     <div class="container border border-2 rounded-4 my-5 py-5">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6" data-aos="zoom-in">
           <div class="accordion accordion-flush" id="accordion">
             <div class="accordion-item">
               <h2 class="accordion-header">
@@ -62,7 +63,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 justify-content-center d-flex">
+        <div class="col-lg-6 justify-content-center d-flex"  data-aos="zoom-in">
           <img src="https://www.apple.com/in/iphone/home/images/overview/augment/mac__eo52ocrn8g02_small.jpg" id="img-1" alt="" />
           <img src="https://www.apple.com/in/iphone/home/images/overview/augment/watch__c8ayb7bdtxme_small.jpg" id="img-2" alt="" />
           <img src="https://www.apple.com/in/iphone/home/images/overview/augment/airpods__eb24cvhoe26a_small.jpg" id="img-3" alt="" />
@@ -79,7 +80,10 @@
       integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+          AOS.init();
+
         $('#img-2,#img-3').hide();
         $('.accordion-button').on('click',function(){
             $('#img-1,#img-2,#img-3').hide();
