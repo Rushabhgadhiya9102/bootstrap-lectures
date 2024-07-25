@@ -13,34 +13,34 @@ body {
   background-attachment: fixed;
 }
 
-.navbar{
+.navbar {
   background-image: url("./images/BG\ RUSHABH2Artboard\ 1@3x.png");
-   background-position: center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-h1{
+h1 {
   writing-mode: vertical-lr;
 }
 
-@media(max-width:768px){
-  h1{
+@media (max-width: 768px) {
+  h1 {
     writing-mode: horizontal-tb;
   }
 
-  .card{
+  .card {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .card-img-overlay{
+  .card-img-overlay {
     flex-direction: column;
     justify-content: space-around !important;
   }
 
-  .card{
+  .card {
     height: 100vh;
   }
 }
